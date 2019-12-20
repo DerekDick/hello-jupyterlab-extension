@@ -734,7 +734,7 @@
         "signature": "7a7e8dec050f4ad9d6b093812a3a203acb13a32364079db20f7a6fde38f8427c"
       },
       "/home/derek/Documents/hello-jupyterlab-extension/src/index.ts": {
-        "version": "ed2e49038555762d703ed97f7b1b6a6ca6a46adf9cdf570346018c4b90121ebd",
+        "version": "c888650f923413268a334e8fb36abc47331cb1387a56ce77de19b4b5a5070ff4",
         "signature": "eefdd1007c92c50f5f1fab8257dcf4103cc6aeeaf18a621301808054755dc855"
       }
     },
@@ -1575,7 +1575,8 @@
       "/home/derek/Documents/hello-jupyterlab-extension/src/index.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1587,569 +1588,217 @@
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/token.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/uuid.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/chain.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/empty.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/enumerate.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/filter.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/find.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/map.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/range.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/reduce.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/repeat.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/retro.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/sort.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/stride.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/take.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/zip.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/array.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/chain.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/empty.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/enumerate.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/filter.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/find.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/map.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/range.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/reduce.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/repeat.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/retro.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/sort.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/stride.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/string.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/take.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/zip.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/config/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/router.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/dataconnector.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/nbformat.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/ratelimiter.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/restorablepool.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/statedb.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/url.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/dataconnector.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/markdowncodeblocks.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/nbformat.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/pageconfig.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/path.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/ratelimiter.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/restorablepool.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/statedb.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/text.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/time.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/url.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/manager.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/manager.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/manager.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/manager.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/manager.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/manager.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/manager.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/config/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/manager.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/connectionlost.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clientsession.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/connectionlost.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/lab.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/layoutrestorer.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/mimerenderers.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/router.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/src/index.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/mimerenderers.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/layoutrestorer.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/lab.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/application/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/application/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/registry.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/factories.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/latex.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/registry.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/renderers.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/widgets.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/mimedocument.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/context.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/mimedocument.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clipboard.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxpanel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/commandpalette.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/contextmenu.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/dockpanel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/focustracker.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/gridlayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menubar.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/scrollbar.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/singletonlayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitpanel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabpanel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxengine.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/commandpalette.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/contextmenu.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/dockpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/focustracker.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/gridlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menubar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/scrollbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/singletonlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabpanel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/collapse.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/commandlinker.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/commandpalette.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/csstype/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/prop-types/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/global.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/context.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/dialog.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/iframe.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/inputdialog.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/dialog.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/vdom.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/toolbar.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/vdom.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clientsession.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/tokens.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/mimetype.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/printing.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/widget.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/mimetype.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/tokens.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/widget.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/toolbar.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/printing.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/spinner.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/splash.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/tokens.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/thememanager.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/splash.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/tokens.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/widgets.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/renderers.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/factories.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
       ],
       "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/windowresolver.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
@@ -2178,220 +1827,572 @@
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/windowresolver.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/tokens.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/thememanager.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/splash.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/tokens.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/splash.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/toolbar.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/vdom.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clientsession.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/toolbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/printing.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/commandpalette.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/commandlinker.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxengine.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/commandpalette.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/contextmenu.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/dockpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/focustracker.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/gridlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menubar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/scrollbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/singletonlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/spinner.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/printing.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/vdom.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/iframe.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/dialog.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/inputdialog.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/dialog.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/collapse.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menubar.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/contextmenu.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/menu.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/commandpalette.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clipboard.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/connectionlost.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/config/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/manager.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/clientsession.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/manager.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/manager.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/manager.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/workspace/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/terminal/terminal.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/manager.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/manager.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/session/session.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/manager.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/manager.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/messages.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/kernel/kernel.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/contents/index.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/widget.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts"
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/config/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts"
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/url.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/dataconnector.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/markdowncodeblocks.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/nbformat.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/pageconfig.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/path.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/ratelimiter.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/restorablepool.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/statedb.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/text.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/time.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/url.d.ts"
       ],
       "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/mimetype.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/tokens.d.ts": [
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/setting/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/statedb.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/mimetype.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/editor.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/widget.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/factory.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/mimetype.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/tokens.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/context.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/tokens.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/settingregistry.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/ratelimiter.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/codeeditor/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/nbformat.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/factories.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/registry.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/renderers.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/widgets.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/factories.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/latex.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/registry.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/renderers.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/tokens.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/widgets.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/mimedocument.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/context.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/default.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/mimedocument.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/registry.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/application/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/application/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/restorablepool.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/lab.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/layoutrestorer.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/mimerenderers.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/docregistry/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts"
-      ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/router.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/poll.d.ts": [
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
         "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts"
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/connectionlost.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/frontend.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/lab.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/layoutrestorer.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/mimerenderers.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/router.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/shell.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/status.d.ts",
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/tokens.d.ts"
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/dataconnector.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/interfaces.d.ts"
       ],
-      "/home/derek/Documents/hello-jupyterlab-extension/src/index.ts": [
-        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/application/lib/index.d.ts"
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablestring.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/modeldb.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablejson.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablemap.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/undoablelist.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/commands/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/array.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/chain.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/empty.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/enumerate.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/filter.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/find.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/map.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/range.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/reduce.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/repeat.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/retro.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/sort.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/stride.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/string.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/take.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/zip.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/singletonlayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/gridlayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/dockpanel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/docklayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabpanel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitpanel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxpanel.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/boxlayout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/scrollbar.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/focustracker.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/tabbar.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/widget.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/observables/lib/observablelist.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/disposable/lib/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/zip.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/take.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/stride.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/sort.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/retro.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/repeat.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/reduce.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/range.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/map.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/find.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/filter.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/enumerate.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/empty.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/chain.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/algorithm/lib/iter.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/widgets/lib/title.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@phosphor/signaling/lib/index.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/nbconvert/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/builder/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@jupyterlab/services/lib/serverconnection.d.ts"
+      ],
+      "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/index.d.ts": [
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/csstype/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/prop-types/index.d.ts",
+        "/home/derek/Documents/hello-jupyterlab-extension/node_modules/@types/react/global.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
