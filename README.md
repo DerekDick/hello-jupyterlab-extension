@@ -10,7 +10,7 @@ A hello world example of jupyter-lab extension.
 ## Installation
 
 ```bash
-jupyter labextension install hello_jupyterlab_extension
+jupyter labextension install @derekdick/hello_jupyterlab_extension
 ```
 
 ## Development

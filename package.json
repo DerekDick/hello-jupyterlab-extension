@@ -1,5 +1,5 @@
 {
-  "name": "hello_jupyterlab_extension",
+  "name": "@derekdick/hello_jupyterlab_extension",
   "version": "0.1.0",
   "description": "A hello world example of jupyter-lab extension.",
   "keywords": [
